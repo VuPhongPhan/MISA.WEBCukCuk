@@ -1,0 +1,101 @@
+﻿
+.m-dialog .dialog-content .dialog-body {
+    padding-left: 30px;
+}
+
+.row-one {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+    .row-one .row-avatar {
+        width: 200px;
+        height: 600px;
+        float: left;
+        padding: 20px;
+        background-color: red;
+    }
+
+        .row-one .row-avatar .row-img {
+            top: 0;
+            left: 0;
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+            border: 1px solid #808080;
+            background-image: url('/content/img/default-avatar.jpg');
+            background-size: contain;
+            background-position: center;
+        }
+
+        .row-one .row-avatar .row-text {
+            text-align: center;
+        }
+
+    .row-one .row-left {
+        padding: 10px;
+    }
+
+        .row-one .row-left .info-1 .info-1-1 {
+            float: left;
+            padding: 10px;
+        }
+
+        .row-one .row-left .info-1 .info-1-2 {
+            padding: 10px 15px 10px 15px;
+        }
+
+        .row-one .row-left .info-1 input {
+            width: 200px;
+        }
+
+#dtDateOfBirth {
+    width: 200px;
+}
+
+
+.m-radio-item {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.dialog-footer {
+    display: flex;
+    padding-top: 16px;
+    padding-left: 580px;
+}
+
+    .dialog-footer button {
+        margin: 4px 2px;
+        padding: 15px 32px;
+    }
+
+select {
+    width: 234px;
+    height: 37px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    outline: none;
+    padding-left: inherit
+}
+
+
+.m-label {
+    padding-bottom: 5px;
+}
+
+span {
+    color: red;
+}
+
+.border-red {
+    border: 1px solid red;
+}
+
+input:focus {
+    border: 1px solid green;
+}
+

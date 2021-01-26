@@ -1,0 +1,79 @@
+﻿.header {
+    width: calc(100% - 222px);
+    height: 60px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    font-size: 13px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+    .header .header-left {
+        display: flex;
+        padding-left: 24px;
+        border-color: #BBBBBB;
+        align-self: center;
+    }
+
+        .header .header-left .header-left-icon {
+            width: 24px;
+            height: 24px;
+            margin: auto 0;
+        }
+
+        .header .header-left .department-info {
+            padding: 16px;
+            font-size: 16px;
+        }
+
+            .header .header-left .department-info select {
+                height: 40px;
+                width: 200px;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                font-weight: bold;
+                font-size: 15px;
+            }
+
+            .header .header-left .department-info option {
+                cursor: pointer;
+            }
+
+    .header .header-right {
+        display: flex;
+        position: absolute;
+        right: 16px;
+        align-self: center;
+    }
+
+        .header .header-right .header-right-icon {
+            width: 30px;
+            height: 30px;
+            background-image: url('../../content/icon/avatar-default.png');
+            background-size: contain;
+            align-self: center;
+        }
+
+        .header .header-right .header-right-text {
+            display: flex;
+            align-self: center;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+
+            .header .header-right .header-right-text .text {
+                padding-right: 16px;
+                align-self: center;
+            }
+
+            .header .header-right .header-right-text .icon {
+                width: 24px;
+                height: 24px;
+                background-image: url('../../content/icon/option.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+
+

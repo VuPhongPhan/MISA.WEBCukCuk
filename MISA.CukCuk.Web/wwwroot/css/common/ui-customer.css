@@ -1,0 +1,148 @@
+﻿/*
+.dialog-content {
+}
+
+    .dialog-content .dialog-footer {
+    }
+
+
+
+.m-dialog .dialog-modal {
+    opacity: .5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    z-index: 99;
+}
+
+.m-dialog .dialog-content {
+    position: absolute;
+    width: 800px;
+    height: auto;
+    display: grid;
+    background-color: #ffffff;
+    z-index: 100;
+    top: calc(50% - 450px);
+    left: calc(50% - 400px);
+    border-radius: 5px;
+}
+
+
+
+
+.row-one .row-avatar {
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding: 20px;
+}
+
+    .row-one .row-avatar .row-img {
+        top: 0;
+        left: 0;
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+        border: 1px solid #808080;
+        background-image: url('/content/img/default-avatar.jpg');
+        background-size: contain;
+        background-position: center;
+    }
+
+    .row-one .row-avatar .row-text {
+        text-align: center;
+    }
+
+.row-one .row-one-left {
+    padding: 10px;
+}
+
+    .row-one .row-one-left .info-1 .info-1-1 {
+        float: left;
+        padding: 10px;
+    }
+
+    .row-one .row-one-left .info-1 .info-1-2 {
+        padding: 10px 15px 10px 15px;
+    }
+
+    .row-one .row-one-left .info-1 input {
+        width: 200px;
+    }
+
+#dtDateOfBirth {
+    width: 200px;
+}
+
+
+.row-two .info-2 .info-2-1 {
+    float: left;
+    padding: 10px;
+}
+
+    .row-two .info-2 .info-2-1 input {
+        width: 450px;
+    }
+
+.row-two .info-2 .info-2-3 {
+    padding: 10px;
+}
+
+    .row-two .info-2 .info-2-3 input {
+        width: 694px;
+    }
+
+.row-two .info-2 .info-2-2 input {
+    width: 200px;
+}
+
+.row-two .info-2 .info-2-2 {
+    padding: 10px 30px 10px 30px;
+}
+
+.m-radio-item {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.dialog-footer {
+    display: flex;
+    padding-top: 16px;
+    padding-left: 580px;
+}
+
+    .dialog-footer button {
+        margin: 4px 2px;
+        padding: 15px 32px;
+    }
+
+select {
+    width: 234px;
+    height: 37px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    outline: none;
+    padding-left: inherit
+}
+
+
+.m-label {
+    padding-bottom: 5px;
+}
+
+span {
+    color: red;
+}
+
+.border-red {
+    border: 1px solid red;
+}
+
+input:focus {
+    border: 1px solid green;
+}
+*/

@@ -1,0 +1,46 @@
+﻿.content {
+    position: absolute;
+    top: 61px;
+    left: 221px;
+    width: calc(100% - 253px);
+    background-color: #ffffff;
+    padding: 16px 16px 0 16px;
+}
+
+
+/*page-title*/
+.content .page-title {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+    .content .page-title .page-title-left {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .content .page-title .page-title-right {
+        position: absolute;
+        right: 16px;
+        display: flex;
+    }
+
+
+
+/*filter-bar*/
+    .content .filter-bar .filter-left select {
+        width: 200px;
+        padding-left: 16px;
+        margin-left: 20px;
+    }
+/*grid*/
+.content .grid {
+}
+
+/*paging-*/
+.content .paging-bar {
+    height: 56px;
+}
+

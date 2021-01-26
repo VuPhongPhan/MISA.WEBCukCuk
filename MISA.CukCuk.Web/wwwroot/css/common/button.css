@@ -1,0 +1,175 @@
+﻿.m-btn {
+    background-color: #019160;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #ffffff;
+    font-family: GoogleSans-Regular;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    outline: none;
+    display: flex;
+    cursor: pointer;
+}
+
+    .m-btn:hover {
+        background-color: #2FBE8E;
+    }
+
+    .m-btn btn-add-icon {
+        background-position: center;
+    }
+
+    .m-btn .btn-text {
+        margin-left: 8px;
+    }
+
+.m-btn-second {
+    width: 40px;
+    border-radius: 4px;
+    color: #000000;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    outline: none;
+    border: 1px solid #bbbbbb;
+    cursor: pointer
+}
+
+    .m-btn-second:hover {
+        background-color: #E9EBEE;
+    }
+
+.m-btn-refresh {
+    background-image: url('/content/icon/refresh.png');
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.m-btn-delete {
+    background-image: url('/content/icon/Delete.png');
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px;
+}
+
+.btn-pagenumber {
+    width: 30px;
+    height: 30px;
+    margin: 0 4px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background-color: #e9ebee;
+    cursor: pointer !important;
+}
+
+    .btn-pagenumber:hover {
+        background-color: #ffffff;
+    }
+
+    .btn-pagenumber.btn-pagenumber-selected, .btn-pagenumber-selected:hover {
+        background-color: #019160;
+        color: #ffffff;
+    }
+
+.btn-select-page {
+    opacity: .7;
+    margin: 0 4px;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.00);
+}
+
+    .btn-select-page:hover {
+        opacity: 1;
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+    }
+
+#btnDelete:disabled {
+    background-color: #ffffff;
+}
+
+#btnDelete {
+    background-color: #E9EBEE;
+}
+
+.btn-delete {
+    position: absolute;
+    background-color: #F65454;
+    right: 10px;
+    color: white;
+    border: none;
+    padding: 10px 32px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: none;
+}
+
+    .btn-delete:hover {
+        background-color: #FF6900;
+    }
+
+.btn-exit {
+    position: absolute;
+    background-color: #F4F4F4;
+    border: none;
+    color: black;
+    right: 100px;
+    padding: 10px 32px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+    .btn-exit:hover {
+        background-color: #BBBBBB;
+    }
+
+.btn-closePopup {
+    position: absolute;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    color: white;
+    padding: 10px 25px;
+    right: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.m-btn-firstpage {
+    background-image: url('/content/icon/btn-firstpage.svg');
+}
+
+.m-btn-prev-page {
+    background-image: url('/content/icon/btn-prev-page.svg');
+}
+
+.m-btn-next-page {
+    background-image: url('/content/icon/btn-next-page.svg');
+}
+
+.m-btn-lastpage {
+    background-image: url('/content/icon/btn-lastpage.svg');
+}

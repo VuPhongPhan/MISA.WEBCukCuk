@@ -1,0 +1,27 @@
+﻿.icon-add {
+    width: 16px;
+    height: 16px;
+    background-image: url('/content/icon/add.png');
+    background-size: contain;
+}
+
+.icon-search {
+    background-image: url('/content/icon/search.png');
+    background-position: 16px center;
+    background-repeat: no-repeat;
+}
+
+.icon-load {
+    background-image: url('/content/icon/refresh.png');
+    background-position: 16px center;
+    background-repeat: no-repeat;
+}
+
+.icon-save {
+    width: 16px;
+    height: 16px;
+    background-image: url('/content/icon/icon_Save.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

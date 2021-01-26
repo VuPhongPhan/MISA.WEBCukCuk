@@ -1,0 +1,69 @@
+﻿.toast-container {
+    /*display: none;*/
+}
+/* Style for toast general */
+.toast-box {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background-color: #FFCECE;
+    height: 48px;
+    border-radius: 4px;
+    font-size: 13px;
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    z-index: 1010;
+}
+
+    .toast-box .toast-icon {
+        height: 24px;
+        width: 24px;
+        font-size: 13px;
+        background-color: #EB5757;
+        border-radius: 50%;
+        color: #FFFFFF;
+        margin: 0px 6px;
+        text-align: center;
+        line-height: 24px;
+    }
+
+    .toast-box .toast-content {
+        height: 48px;
+        color: #000000;
+        margin: 0px 6px;
+        line-height: 46px;
+        text-align: center;
+    }
+
+    .toast-box .toast-cancel {
+        margin: 0px 6px;
+        color: #EB5757;
+        position: absolute;
+        right: 0;
+        border: none;
+        font-size: 20px;
+        background-color: #FFCECE;
+        outline: none;
+        cursor: pointer;
+    }
+/* end of style general*/
+/* Style for toast-error */
+.toast-error {
+}
+/* Style for toast-success*/
+.toast-success {
+    background-color: #BAFFE7;
+    z-index: 1020;
+}
+
+    .toast-success .toast-icon {
+        background-color: #01B075;
+    }
+
+    .toast-success .toast-cancel {
+        color: #01B075;
+        background-color: #BAFFE7;
+    }
+/* End of style for toast-success*/
